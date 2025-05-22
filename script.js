@@ -72,21 +72,6 @@ function convertToTitleCase() {
   outputText.value = titleCaseText;
 }
 
-function copyToClipboard() {
-  const outputText = document.getElementById("outputText");
-  outputText.select();  // Selects the text in the textarea
-  document.execCommand("copy");  // Copies the selected text to clipboard
-
-  // Optional: Visual feedback that copy happened
-  const copyButton = document.querySelector('button span.truncate').parentElement;
-  const originalText = copyButton.querySelector('span').textContent;
-  copyButton.querySelector('span').textContent = "Copied!";
-
-  setTimeout(() => {
-    copyButton.querySelector('span').textContent = originalText;
-  }, 1500);
-}
-
 // Make sure the DOM is fully loaded before attaching event listeners
 window.onload = function() {
   // Get the copy button - more direct selector
