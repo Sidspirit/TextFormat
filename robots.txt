@@ -1,2 +1,4 @@
 User-agent: *
 Allow: https://letterlab.netlify.app/
+
+Sitemap: https://letterlab.netlify.app/sitemap.xml
