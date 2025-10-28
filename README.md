@@ -45,7 +45,7 @@ This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LI
 
 ## Live Demo
 
-[[YOUR_LIVE_DEMO_LINK_HERE] (https://letterlab.netlify.app/)
+https://letterlab.netlify.app/
 
 ## Support
 
